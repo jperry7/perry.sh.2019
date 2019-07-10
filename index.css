@@ -1,0 +1,105 @@
+body {
+	background-color: rgba(0,0,0,0);
+}
+
+.column {
+	margin-top: 10vh;
+	height: 80vh;
+	margin-bottom: 10vh;
+	background: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 1);
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+.background-container {
+	height: 100vh;
+	width: 100vw;
+	z-index: 10;
+	background: url("images/fourth_bg.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.btn {
+	border-color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0);
+	color: rgba(255, 255, 255, 1);
+	min-width: 15vw;
+	min-height: 10vh;
+}
+
+.btn:hover {
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-color: rgba(255,255,255,1);
+	color: rgba(255, 255, 255, 1);
+}
+
+.btn:menu-active, .btn:focus {
+	outline: none;
+}
+
+.btn i {
+	margin-right: 10px;
+}
+
+.menu-active {
+	border-color: rgba(255,255,255,1);
+	background-color: rgba(255,255,255,1);
+	color: black;
+}
+
+.menu-active:hover {
+	border-color: rgba(255,255,255,1);
+	background-color: rgba(255,255,255,1);
+	color: black;
+}
+
+.carousel-item {
+	background-color: transparent;
+	padding-left: 3vw;
+	padding-top: 2vh;
+	padding-right: 3vw;
+	padding-bottom: 2vh;
+}
+
+p {
+	padding-left: 2vw;
+}
+
+#josh {
+	width: 20vh;
+	border-radius: 50%;
+	border-style: ridge;
+	border-color: rgba(200,200,200,1);
+	border-width: 2px;
+	margin-bottom: 6vh;
+}
+
+.contact {
+	font-size: 5vh;
+}
+
+.contact p i {
+	margin-right: 1vh;
+}
+
+.contact p a {
+	color: rgba(255,255,255,1);
+	text-decoration: underline;
+}
