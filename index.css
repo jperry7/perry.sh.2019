@@ -10,6 +10,7 @@ body {
 	color: rgba(255, 255, 255, 1);
 	padding-top: 5vh;
 	padding-bottom: 5vh;
+	overflow-y: auto;
 }
 
 .background-container {
@@ -80,6 +81,7 @@ ul li {
 
 p {
 	padding-left: 2vw;
+	font-size: 3vh;
 }
 
 #josh {
@@ -92,14 +94,34 @@ p {
 }
 
 .contact {
-	font-size: 5vh;
 }
 
 .contact p i {
 	margin-right: 1vh;
 }
 
-.contact p a {
+a {
 	color: rgba(255,255,255,1);
 	text-decoration: underline;
+}
+
+#resume {
+	height: 60vh;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.left-image a img, .right-image a img {
+	width: 100%;
+}
+
+.left-content, .right-content {
+	padding-top: 2vw;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+.left-content p, .right-content p, .left-content a, .right-content a {
+	font-size: 1.5vw;
 }
